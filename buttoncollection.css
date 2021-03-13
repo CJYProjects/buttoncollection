@@ -12,6 +12,72 @@ body{
     max-width: 100vw;
 }
 
+/* animation: jump 1.2s; */
+@keyframes jump{
+    0% {transform: translateY(10px);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+/* animation: bounce 1s; */
+@keyframes bounce{
+    0% {transform: translateY(10px);}
+    17% {transform: translateY(-20px);}
+    33% {transform: translateY(0px);}
+    49% {transform: translateY(-10px);}
+    65% {transform: translateY(0px);}
+    83% {transform: translateY(-5px);}
+    100% {transform: translateY(0px);}
+}
+
+/* animation: wiggle 1.5s linear infinite; */
+@keyframes wiggle{
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(10deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+}
+
+/* animation: shake 1s; */
+@keyframes shake{
+    0% {transform: translateX(10px);}
+    17% {transform: translateX(-20px);}
+    33% {transform: translateX(0px);}
+    49% {transform: translateX(-10px);}
+    65% {transform: translateX(0px);}
+    83% {transform: translateX(-5px);}
+    100% {transform: translateX(0px);}
+}
+
+/* animation: struggle 0.6s; */
+@keyframes struggle{
+    0% {transform: skew(10deg, 10deg);}
+    25% {transform: skew(-10deg, -10deg);}
+    50% {transform: skew(10deg, 10deg);}
+    75% {transform: skew(-10deg, -10deg);}
+    100% {transform: skew(10deg, 10deg);}
+}
+
+/* animation: bloat 1s; */
+@keyframes bloat{
+    0% {transform: scale(1.1, 1.1);}
+    50% {transform: scale(0.9, 0.9);}
+    100% {transform: scale(1, 1);}
+}
+
+@keyframes fill{
+    
+}
+
+@keyframes press{
+    
+}
+
+@keyframes trace{
+    
+}
+
 header h1{
     background-color: #212121;
     color: #ecf0f1;
@@ -120,11 +186,11 @@ header h1{
     background: #53ADE7;
 }
 /* rounded rectangle */
-#six, #ten, #seventeen, #eighteen{
+.rounded-rectangle-button{
     border-radius: 5px;
 }
 /* circle */
-#four, #eleven, #nineteen, #twenty{
+.circle-button{
     border-radius: 50%;
     height: 5em;
     width: 5em;
@@ -134,14 +200,14 @@ header h1{
     padding: 0;
 }
 /* square */
-#five, #twelve, #twentyone, #twentytwo{
+.square-button{
     height: 5em;
     width: 5em;
     box-sizing: content-box;
     padding: 0;
 }
 /* rounded square */
-#seven, #thirteen, #twentythree, #twentyfour{
+.rounded-square-button{
     height: 5em;
     width: 5em;
     box-sizing: content-box;
