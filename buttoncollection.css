@@ -143,7 +143,7 @@ header h1{
     text-transform: uppercase;
 }
 
-.container-button:hover, #two:hover, #fourteen:hover{
+.container-button:hover{
     border: thin solid;
 }
 
@@ -224,4 +224,28 @@ header h1{
 .threed-button-title{
     color: #4E998A;
     text-shadow: 0px -1px 0px rgba(47,79,79,.5);
+}
+
+.jump:hover{
+    animation: jump 1.2s;
+}
+
+.bounce:hover{
+    animation: bounce 1s;
+}
+
+.wiggle:hover{
+    animation: wiggle 1.5s linear infinite;
+}
+
+.shake:hover{
+    animation: shake 1s;
+}
+
+.struggle:hover{
+    animation: struggle 0.6s;
+}
+
+.bloat:hover{
+    animation: bloat 1s;
 }
