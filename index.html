@@ -31,18 +31,18 @@
                     <button class = "button-sample bordered-button"><span class = "button-title">Button</span></button>
                     <button class = "button-sample bordered-button background-button"><span class = "button-title">Button</span></button>
                     <button class = "button-sample bordered-button rounded-rectangle-button"><span class = "button-title">Button</span></button>
-                    <button class = "button-sample bordered-button rounded-rectangle-button background-button"><span class = "button-title">Button</span></button>
+                    <button class = "button-sample invisible-button rounded-rectangle-button background-button"><span class = "button-title">Button</span></button>
                     <button class = "button-sample bordered-button circle-button"><span class = "button-title">Button</span></button>
-                    <button class = "button-sample bordered-button circle-button background-button"><span class = "button-title">Button</span></button>
+                    <button class = "button-sample invisible-button circle-button background-button"><span class = "button-title">Button</span></button>
                     <button class = "button-sample bordered-button square-button"><span class = "button-title">Button</span></button>
-                    <button class = "button-sample bordered-button square-button background-button"><span class = "button-title">Button</span></button>
+                    <button class = "button-sample invisible-button square-button background-button"><span class = "button-title">Button</span></button>
                     <button class = "button-sample bordered-button rounded-square-button"><span class = "button-title">Button</span></button>
-                    <button class = "button-sample bordered-button rounded-square-button background-button"><span class = "button-title">Button</span></button>
+                    <button class = "button-sample invisible-button rounded-square-button background-button"><span class = "button-title">Button</span></button>
                 </div>
             </div>
             
             <div class = "content-wrapper" id = "threed-container">
-                <button class = "container-button" onclick="showOrHide('flat')"><span id="3d-text">3D Buttons</span><i id="flat-arrow" class="material-icons arrow">expand_more</i></button>
+                <button class = "container-button" onclick="showOrHide('threed')"><span id="3d-text">3D Buttons</span><i id="threed-arrow" class="material-icons arrow">expand_more</i></button>
                 <div class = "container" id = "threed">
                     <button class = "button-sample invisible-button threed-btn"><span class = "button-title">Button</span></button>
                     <button class = "button-sample invisible-button threed-btn"><span class = "button-title threed-button-title">Button</span></button>
@@ -57,16 +57,81 @@
                 </div>
             </div>
             <div class = "content-wrapper" id = "hover-effects-container">
-                <button class = "container-button" onclick="showOrHide('flat')"><span id="3d-text">Hover Effects</span><i id="flat-arrow" class="material-icons arrow">expand_more</i></button>
+                <button class = "container-button" onclick="showOrHide('hover-effects')"><span id="3d-text">Hover Effects</span><i id="hover-effects-arrow" class="material-icons arrow">expand_more</i></button>
                 <div class = "container" id = "hover-effects">
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn jump"><span class = "button-title threed-button-title">Button</span></button>
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn bounce"><span class = "button-title threed-button-title">Button</span></button>
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn wiggle"><span class = "button-title threed-button-title">Button</span></button>
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn shake"><span class = "button-title threed-button-title">Button</span></button>
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn struggle"><span class = "button-title threed-button-title">Button</span></button>
-                    <button class = "button-sample invisible-button rounded-square-button threed-btn bloat"><span class = "button-title threed-button-title">Button</span></button>
+                    <div class = "card">
+                    Full Fade
+                    <button class = "button-sample rounded-square-button full-fade"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Fill In
+                    <button class = "button-sample rounded-square-button fill-in"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Lift Up
+                    <button class = "button-sample rounded-square-button lift-up"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Fade In
+                    <button class = "button-sample rounded-square-button fade-in"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Fade Out
+                    <button class = "button-sample rounded-square-button fade-out"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Jump
+                    <button class = "button-sample invisible-button rounded-square-button background-button jump"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Bounce
+                    <button class = "button-sample invisible-button rounded-square-button background-button bounce"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Wiggle
+                    <button class = "button-sample invisible-button rounded-square-button background-button wiggle"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Shake
+                    <button class = "button-sample invisible-button rounded-square-button background-button shake"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Struggle
+                    <button class = "button-sample invisible-button rounded-square-button background-button struggle"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Grow
+                    <button class = "button-sample invisible-button rounded-square-button background-button grow"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Shrink
+                    <button class = "button-sample invisible-button rounded-square-button background-button shrink"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    <div class = "card">
+                    Pulse
+                    <button class = "button-sample invisible-button rounded-square-button background-button pulse"><span class = "button-title threed-button-title">Button</span></button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
+        
+        <script>
+            var buttonArray = document.getElementsByClassName("arrow");
+            for(i = 0; i < buttonArray.length; i++){
+                buttonArray[i].classList.add("active");
+            }
+            
+            function showOrHide(divName){
+                if(document.getElementById(divName).style.display != "none"){
+                    document.getElementById(divName).style.display = "none";
+                    document.getElementById(divName + "-arrow").classList.remove("active");
+                }
+                else{
+                    document.getElementById(divName).style.display = "flex";
+                    document.getElementById(divName + "-arrow").classList.add("active");
+                }
+            }
+        </script>
     </body>
 </html>
